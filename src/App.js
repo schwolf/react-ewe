@@ -35,6 +35,7 @@ class App extends Component {
   }
 
   render() {
+    // todo use name instead of id for everything (see also appropriate section in official react documentation)
     return (
       <div className="App">
         <form onSubmit={this.handleSubmit}>
